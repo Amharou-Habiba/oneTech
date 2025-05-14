@@ -1,0 +1,25 @@
+body {
+    background-image: url("../imgs/xbanner_2_background.jpg.pagespeed.ic.4E_HslFvB8.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  form {
+    width: 40%;
+    background-color: #f0f0f03b;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    form {
+      width: 80%;
+    }
+  }
+  
